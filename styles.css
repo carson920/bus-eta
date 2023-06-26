@@ -1,0 +1,18 @@
+.row {
+  display: flex;  /* aligns all child elements (flex items) in a row */
+  max-width: 600px;
+  border: solid black;
+}
+
+.col {
+  flex: 1;        /* distributes space on the line equally among items */
+}
+
+.header {
+  font-weight: bold; 
+}
+
+div div:nth-of-type(1) {flex-grow: 1;}
+div div:nth-of-type(2) {flex-grow: 4;}
+div div:nth-of-type(3) {flex-grow: 5;}
+div div:nth-of-type(4) {flex-grow: 2;}
