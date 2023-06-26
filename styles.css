@@ -1,3 +1,7 @@
+* {
+  font-size: 10px;
+}
+
 .row {
   display: flex;  /* aligns all child elements (flex items) in a row */
   max-width: 600px;
