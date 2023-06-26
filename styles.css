@@ -6,6 +6,7 @@
   display: flex;  /* aligns all child elements (flex items) in a row */
   max-width: 600px;
   border: solid black;
+  border-width: thin;
 }
 
 .col {
