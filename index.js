@@ -90,25 +90,6 @@ const init = async () => {
 
 window.addEventListener('DOMContentLoaded', init);
 
-
-// const renderResults = (list) => {
-//   const etaList = list
-//     .map((item) => {
-//       const { route, seq, dest_tc, eta_seq, eta, summ } = item;
-//       return `<tr>
-//             <td>${route}</td>
-//             <td>${seq}</td>
-//             <td>${dest_tc}</td>
-//             <td>${summ}</td>
-//           </tr>`;
-//     })
-//     .join('');
-//   resultsDOM.innerHTML = `<table style="width:100%">
-//           ${etaList}
-//           </table>
-//         `;
-//   console.log(resultsDOM.innerHTML);
-// };
 const renderResults = (list) => {
   const etaList = list
     .map((item) => {
