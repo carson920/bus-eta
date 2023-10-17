@@ -1,3 +1,6 @@
+const loader = document.getElementById("loader");
+const content = document.getElementById("content");
+
 const url =
   'https://data.etabus.gov.hk/v1/transport/kmb/route-eta/';
 
@@ -84,7 +87,11 @@ const init = async () => {
       }, {});
     }
   }
-
+  console.log("change style");
+  // loader.style.display = "none";
+  spin.style.display = "none";
+  // loader2.style.display = "none";
+  content.style.display = "block";
   renderResults(result);
 };
 
@@ -123,5 +130,6 @@ const renderResults = (list) => {
           ${etaList}
           </section>
         `;
-  console.log(resultsDOM.innerHTML);
+  console.log("inner" + resultsDOM.innerHTML);
 };
+console.log("end");
