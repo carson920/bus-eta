@@ -44,6 +44,18 @@ const list = [
     { "dir": "O", "seq": 33 },
     { "dir": "I", "seq": 11 },
     { "dir": "I", "seq": 14 }]
+  },
+  {
+    "route": "182",
+    "stops":
+    [{ "dir": "O", "seq": 10 },
+    { "dir": "O", "seq": 23 },
+    { "dir": "O", "seq": 27 },
+    { "dir": "I", "seq": 2 },
+    { "dir": "I", "seq": 3 },
+    { "dir": "I", "seq": 4 },
+    { "dir": "I", "seq": 7 },
+    { "dir": "I", "seq": 23 }]
   }
 ]
 
