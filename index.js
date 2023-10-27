@@ -1,11 +1,9 @@
 const loader = document.getElementById("loader");
 const content = document.getElementById("content");
 
-const url =
-  'https://data.etabus.gov.hk/v1/transport/kmb/route-eta/';
-
-const urlStopId = 'https://data.etabus.gov.hk/v1/transport/kmb/route-stop/'
-const urlStopName = 'https://data.etabus.gov.hk/v1/transport/kmb/stop/'
+const url = 'https://data.etabus.gov.hk/v1/transport/kmb/route-eta/';
+const urlStopId = 'https://data.etabus.gov.hk/v1/transport/kmb/route-stop/';
+const urlStopName = 'https://data.etabus.gov.hk/v1/transport/kmb/stop/';
 
 const list = [
   {
